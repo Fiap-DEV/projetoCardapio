@@ -1,7 +1,12 @@
+import MenuItem from "./MenuItem"
 
-const Menu = () => {
+const Menu = ({items}) => {
   return (
-    <div>Menu</div>
+    <div>
+        {items.map((item)=>(
+            <MenuItem key={item} {...item}/>
+        ))}
+    </div>
   )
 }
 
