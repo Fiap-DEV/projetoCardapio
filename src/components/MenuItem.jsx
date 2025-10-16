@@ -1,6 +1,15 @@
-const MenuItem = () => {
+const MenuItem = ({titulo,preco,img,descricao}) => {
   return (
-    <div>MenuItem</div>
+    <article>
+        <img src={img} alt={titulo}/>
+        <div>
+            <header>
+                <h4>{titulo}</h4>
+                <p>{preco.toFixed(2)}</p>
+            </header>
+            <p>{descricao}</p>
+        </div>
+    </article>
   )
 }
 
