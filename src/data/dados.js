@@ -4,7 +4,7 @@ const menu=[
         titulo:"Jogo-1",
         categoria:"gamer",
         preco:200.00,
-        img:"/src/assets/img.jpg",
+        img:"/src/assets/img1.jpg",
         descricao:"Jogo top 1"
     },
      {
@@ -12,7 +12,7 @@ const menu=[
         titulo:"Jogo-2",
         categoria:"acao",
         preco:100.00,
-        img:"/src/assets/img.jpg",
+        img:"/src/assets/img2.jpg",
         descricao:"Jogo top 2"
     },
       {
@@ -20,7 +20,7 @@ const menu=[
         titulo:"Jogo-3",
         categoria:"rpg",
         preco:150.00,
-        img:"/src/assets/img.jpg",
+        img:"/src/assets/img3.jpg",
         descricao:"Jogo top 3"
     },
       {
@@ -28,7 +28,7 @@ const menu=[
         titulo:"Jogo-4",
         categoria:"aventura",
         preco:100.00,
-        img:"/src/assets/img.jpg",
+        img:"/src/assets/img1.jpg",
         descricao:"Jogo top 4"
     },
       {
@@ -36,7 +36,7 @@ const menu=[
         titulo:"Jogo-5",
         categoria:"acao",
         preco:500.00,
-        img:"/src/assets/img.jpg",
+        img:"/src/assets/img3.jpg",
         descricao:"Jogo top 5"
     },
 
@@ -45,7 +45,7 @@ const menu=[
         titulo:"Jogo-6",
         categoria:"aventura",
         preco:120.00,
-        img:"/src/assets/img.jpg",
+        img:"/src/assets/img2.jpg",
         descricao:"Jogo top 6"
     },
 ]
