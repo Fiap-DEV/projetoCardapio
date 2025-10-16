@@ -26,23 +26,26 @@ function App() {
   
 
   return (
-    <div>
-      <header>
-        <div>
-          <h1>Cardápio Loja</h1>
-          <div></div>
+    <div className="min-h-screen bg-gray-100 text-gray-700 font-sans flex flex-col">
+      <header className="py-12 bg-white shadow-sm">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-5xl md:text-4xl text-slate-800 font-bold uppercase mb-2">
+            Cardápio Fiap
+          </h1>
+          <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full"></div>
         </div>
       </header>
-      <main>
-        <section>
-          <Categorias categorias={categorias} filtroItems={filtrarItems}/>
-          <Menu items={menuItems}/>
+
+      <main className="flex-grow py-10 px-4">
+        <section className="mx-auto max-w-7xl">
+          <Categorias categorias={categorias} filtroItems={filtrarItems} />
+          <Menu items={menuItems} />
         </section>
       </main>
-      <footer>
-        <p>&copy;  2025- todos direitos reservados</p>
+
+      <footer className="bg-slate-800 text-white text-center p-5 mt-10">
+        <p className="text-sm">&copy; 2025 - Todos os direitos reservados</p>
       </footer>
-      
     </div>
   )
 }
